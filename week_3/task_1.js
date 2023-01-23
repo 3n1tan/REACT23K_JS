@@ -1,4 +1,4 @@
-const prompt=require("prompt-sync")({sigint:true});
+const prompt=require("prompt-sync")({sigint:true}); //enabled userinput in terminal
 
 
 let userInput = Number(prompt("Enter a secret number:"));
