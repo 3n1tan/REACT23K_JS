@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.index, .order {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo{
+    color: whitesmoke;
+    font-size: 38px;
+    font-style: italic;
+}
+
+span {
+    color: red;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    color: whitesmoke;
+    padding: 10px 90px;
+    
+}
+
+nav ul li a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: red;
+    transition: .3s;
+}
+
+button {
+    border: none;
+    color: whitesmoke;
+    background: red;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+button:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.orderLink {
+    margin-top: 18rem;
+    margin-left: 15rem;
+}
+
+.orderLink > p {
+    font-size: 60px;
+}
+
+p a {
+    color: azure;
+}
+
+.customer_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.customer {
+    font-family: inherit;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.customer
+input {
+    padding-left: 10px;
+}
+
+.pizzaOrder {
+background-color: aquamarine;
+width: 400px;
+height: 800px;
+border-radius: 10px;
+margin-left: 40%;
+margin-top: 5%;
+padding-left: 30px;
+padding-right: 30px;
+}
